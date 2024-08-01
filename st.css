@@ -1,0 +1,92 @@
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+.sub-title span {
+    color: #ffee10;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 26px;
+}
+
+.services-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #eae056d2, 1px 1px 40px #012290f7;
+}
+
+
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div i {
+    text-decoration: none;
+    color: #000000;
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.services-list div:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+
+
+#portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#loading {
+    margin: 20px;
+}
+
+/* responsive hambargar icon */
+
+
+.myRes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myRes_img{
+    width: 22pc;
+    height: 13.5pc;
+}
+
+@media screen and (max-width: 425px) {
+    .Myres_img {
+        width: 200px;
+        border: 1px solid red;
+    }
+
+}
